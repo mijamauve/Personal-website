@@ -1,0 +1,369 @@
+<html>
+  <head>
+    <style>
+      .background-image {
+        background-image: url('images/mija\ 1.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 730px; /* set the height of the element */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #clock {
+        color: white; /* set the color of the text */
+        font-size: 48px; /* set the size of the text */
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+    </style>
+  </head>
+  
+  <title >MJ's Web Diary</title>
+
+
+  <body id="section1">
+    <div class="background-image">
+      <div class="center2" id="clock"></div>
+      <div id="date" style="position: absolute; top: 80px; right: 20px; color: white; font-size: 26px;"></div>
+      <h2 style="position: absolute; top: 210px; left: 220px; color:white; font-size: 80px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">HI THERE</h2>
+      <p style="position: absolute; top: 350px; left: 230px; color:white; font-size: 20px; font-family: 'Satisfy', 'Sacramento', cursive; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
+        <marquee loop="20" behavior="slide" scrollamount="20">Here's who I am & what's about me</marquee>
+      </p>
+      
+      
+      
+    </div>
+  </body>
+  <br>
+  <a href="https://instagram.com/mijaatika?igshid=YmMyMTA2M2Y= " target="_blank" style="position:absolute;  left: 10px">Visit My IG</a>
+  <br>
+  <br>
+  <a href="https://www.facebook.com/miyamalfoy24?mibextid=ZbWKwL" target="_blank" style="position:absolute;  left: 10px">Visit My FB</a>
+  <br>
+  <br>
+  <a href="https://www.tiktok.com/@mijamauve?_t=8ZofJIf90a1&_r=1" target="_blank" style="position:absolute;  left: 10px">Visit My Tiktok</a>
+
+<body style="background-color:#bbd0ed;">
+   <script>
+      function updateClock() {
+        var date = new Date();
+        var hours = date.getHours();
+        var minutes = date.getMinutes();
+        var seconds = date.getSeconds();
+        var ampm = hours >= 12 ? 'PM' : 'AM';
+        hours = hours % 12;
+        hours = hours ? hours : 12;
+
+        // Add leading zeros
+        hours = (hours < 10) ? "0" + hours : hours;
+        minutes = (minutes < 10) ? "0" + minutes : minutes;
+        seconds = (seconds < 10) ? "0" + seconds : seconds;
+
+        document.getElementById("clock").innerHTML = hours + ":" + minutes + ":" + seconds;
+      }
+
+      setInterval(updateClock, 1000);
+   </script>
+
+  <script> 
+  function displayDate() {
+    var date = new Date();
+    document.getElementById("date").innerHTML = date.toDateString();
+  }
+
+  setInterval(displayDate, 1000);
+ </script>
+
+
+
+<style>
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #7594bd;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .table {
+    width: 45%;
+    margin: 1%;
+  }
+</style>
+
+<br>
+<br>
+
+<center>
+  <h1>My biodata</h1>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <td>Nur Hamizah Binti Hamizan</td>
+    </tr>
+    <tr>
+      <th>Birth Date</th>
+      <td>24 October 2002</td>
+    </tr>
+    <tr>
+      <th>Birth Place</th>
+      <td>Bukit Mertajam, Pulau Pinang</td>
+    </tr>
+    <tr>
+      <th>Address</th>
+      <td>37, Lorong Pauh Jaya 3/1, Taman Pauh Jaya, 13700 Perai, Pulau Pinang </td>
+    </tr>
+      <tr>
+        <th>Hobby</th>
+        <td>Playing with cats, Playing badminton </td>
+      </tr>
+      <tr>
+        <th>Work</th>
+        <td>Internship on Library</td>
+      </tr>
+      <tr>
+        <th>Email</th>
+        <td>hamizahhamizan66@gmail.com</td>
+      </tr>
+  </table>
+</body>
+
+<br>
+<br>
+
+<h1>Experiences</h1>
+
+<p style="font-size:30px">Learned new knowledge and be professional</p>
+<img src="images/intern 6.jpg"  width="480px" height="auto">
+<img src="images/intern 2.jpg"  width="480px" height="auto">
+<img src="images/intern 5.jpg"  width="480px" height="auto">
+<br>
+<br>
+<img src="images/intern 3.jpg"  width="480px" height="auto">
+<img src="images/intern 4.jpg"  width="480px" height="auto">
+<img src="images/intern 1.jpg"  width="480px" height="auto">
+
+<p style="font-size:20px">My six-week experience at the Penang Public Library Corporation in 2022 taught me a lot and gave me professional skills. I also employ some of the 
+ideas I acquired in university.</p>
+<p style="font-size:20px"> Industrial training, in my view, helps students learn how to work in the real world and boosts their confidence.</p>
+
+<br>
+<br>
+<br>
+
+<h1>Education</h1>
+<p style="font-size:30px">My memories at SMK Pauh Jaya</p>
+<img src="images/school 1.jpg"  width="480px" height="auto">
+<img src="images/school 2.jpg"  width="480px" height="auto">
+<img src="images/school 3.jpg"  width="480px" height="auto">
+<p style="font-size:20px"> I studied at Smk Pauh Jaya since 2015 until 2019 and have a lot of memories with my school friends in Penang.</p>
+
+<br>
+<br>
+<br>
+
+<p style="font-size:30px">My memories while Pre-diploma</p>
+<video height="360px" width="auto" controls >
+  <source src="images/pra dip 1.mp4" type="video/mp4">
+</video>
+<p style="font-size:20px">I took my pre-diploma at Uitm Permatang Pauh on the first of September 2019 to the end of March 2020.</p>
+
+<br>
+<br>
+<br>
+
+<h1>Family</h1>
+<img src="images/family 1.jpg"  width="480px" height="auto">
+<img src="images/family 2.jpg"  width="360px" height="auto">
+<img src="images/family 3.jpg"  width="480px" height="auto">
+
+<br>
+
+
+<div style="width: 100%; display: flex;">
+  <table style="width: 49%;">
+    <tr>
+      <th style="font-size:20px">MY DAD</th>
+      <td style="font-size:20px">(MR MIZAN)</td>
+    </tr>
+    <tr>
+      <th>Age</th>
+      <td>48 years old</td>
+    </tr>
+    <tr>
+      <th>Birth Place</th>
+      <td> Johor </td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td>He works as an engineer and weeding photographer for a part time job. He's very good-looking guy in person. He's also a Johorean.</td>
+    </table>
+
+    <table style="width: 49%; float: left;">
+      <tr>
+        <th style="font-size:20px">MY MOM</th>
+        <td style="font-size:20px">(MRS ATIKA)</td>
+      </tr>
+      <tr>
+        <th>Age</th>
+        <td>50 years old</td>
+      </tr>
+      <tr>
+        <th>Birth Place</th>
+        <td>Kota Belud, Sabah</td>
+      </tr>
+      <tr>
+        <th>Description</th>
+        <td>She's a independent woman and a hard-working person. She's the bravest woman I have ever known. She's a Sabahan.</td>
+      </table>
+</div>
+
+<br>
+
+<div style="width: 100%; display: flex;">
+  <table style="width: 49%;">
+    <tr>
+      <th style="font-size:20px">MY BIG BRO</th>
+      <td style="font-size:20px">(ASYAD)</td>
+    </tr>
+    <tr>
+      <th>Age</th>
+      <td>24 years old</td>
+    </tr>
+    <tr>
+      <th>Birth Place</th>
+      <td>Penang</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td>He's a first born in the family. He's right now taking degree in 2nd Animation.</td>
+    </table>
+
+    <table style="width: 49%; float: left;">
+      <tr>
+        <th style="font-size:20px">MY BIG SIS</th>
+        <td style="font-size:20px">(JIMA)</td>
+      </tr>
+      <tr>
+        <th>Age</th>
+        <td>23 years old</td>
+      </tr>
+      <tr>
+        <th>Birth Place</th>
+        <td>Penang</td>
+      </tr>
+      <tr>
+        <th>Description</th>
+        <td>She's the second born in the family. She's also taking degree in 2nd Animation same as my brother at UiTM Puncak Perdana.</td>
+      </table>
+</div>
+
+<br>
+
+<table style="width: 49%;">
+  <tr>
+    <th style="font-size:20px">MY BABY BRO</th>
+    <td style="font-size:20px">(AYEEF)</td>
+  </tr>
+  <tr>
+    <th>Age</th>
+    <td>17 years old </td>
+  </tr>
+  <tr>
+    <th>Birth Place</th>
+    <td>Penang</td>
+  </tr>
+  <tr>
+    <th>Description</th>
+    <td>He's a the last born in the family and the cutest siblings. He's now studying at  my old high school at SMK Pauh Jaya. He's has joined SUKMA for archery equipment and I'm so proud to call him as my best friend.</td>
+  </table>
+
+<br>
+<br>
+<br>
+
+<h1>Gallery</h1>
+
+<br>
+<br>
+
+<img src="images/gallery 9.jpg"  width="auto" height="480px">
+<img src="images/gallery 10.jpg"  width="auto" height="480px">
+
+<br>
+
+<embed src="images/gallery 1.mp4"  width="auto" height="480px">
+<img src="images/gallery 3.jpg"  width="auto" height="480px">
+<embed src="images/gallery 2.mp4"  width="auto" height="480px">
+<img src="images/gallery 5.jpg"  width="auto" height="480px">
+<embed src="images/gallery 4.mp4"  width="auto" height="480px">
+
+<br>
+
+<video width="auto" height="360px" controls>
+  <source src="images/gallery 7.mp4" type="video/mp4">
+</video>
+<video width="auto" height="360px" controls>
+  <source src="images/gallery 8.mp4" type="video/mp4">
+</video>
+
+
+<br>
+
+<video width="auto" height="480px" controls>
+  <source src="images/cat 1.mp4" type="video/mp4">
+</video>
+<video width="auto" height="480px" controls>
+  <source src="images/cat 3.mp4" type="video/mp4">
+</video><video width="auto" height="480px" controls>
+  <source src="images/cat 2.mp4" type="video/mp4">
+</video><video width="auto" height="480px" controls>
+  <source src="images/cat 4.mp4" type="video/mp4">
+</video>
+
+<br>
+<br>
+
+<a href="#section1"><button>Back to top</button></a>
+
+<br>
+<br>
+</body>
+
+
+  
+
+
+</center>
+</html>
